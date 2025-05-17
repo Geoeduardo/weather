@@ -13,3 +13,5 @@ function showweatherDetails(event) {
                                   <p>Temperature: ${data.main.temp} &#8451;</p>
                                   <p>Weather: ${data.weather[0].description}</p>`;
         })
+
+ document.getElementById('weatherForm').addEventListener('submit',showweatherDetails );
